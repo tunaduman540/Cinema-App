@@ -1,0 +1,46 @@
+.seat {
+    width: 40px;
+    height: 40px;
+    border: 3px solid navy;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.leftpart {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.price-box {
+            width: 50px;
+            border: 1px solid black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.2em;
+            background-color: #000000;
+            border-radius: 5px;
+            display: none;
+            z-index: 1000;
+}
+
+.leftpart{
+    height: 400px;
+}
+
+.selected-seat {
+    background-color: green;
+    color: white;
+}
+
+.Information{
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.list-group-item{
+    background-color: #ccc;
+}
